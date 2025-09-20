@@ -60,7 +60,7 @@ System Requirements:
 - Ubuntu 20.04+ (✅ I used Ubuntu 22.04)  
 - Minimum Req.: 6 GB RAM, 50 GB HDD, 4 vCPU
 
-## Tools to Install:
+## Tools to Install: 
 
 **Yosys**: RTL synthesis tool.
 
@@ -76,3 +76,23 @@ System Requirements:
 
 ---
 
+📂 GitHub Repository
+
+- Week-0 Repository: https://github.com/CHITTESH-S/Week-0_RISC-V_SoC_VSD/
+
+- Main Repository: https://github.com/CHITTESH-S/RISC-V_SoC_TapeOut_VSD/
+
+---
+
+✅ Summary of Installed Tools
+
+| Tool           | Description                                 | Status       |
+| -------------- | ------------------------------------------- | ------------ |
+| Yosys          | RTL synthesis tool for digital circuits     | ✔️ Installed |
+| Icarus Verilog | Verilog simulation and testbench execution  | ✔️ Installed |
+| GTKWave        | Waveform viewer for simulation results      | ✔️ Installed |
+| Ngspice        | Circuit-level SPICE simulation engine       | ✔️ Installed |
+| Magic          | VLSI layout editor and design rule checker  | ✔️ Installed |
+| OpenLane       | Complete RTL-to-GDSII ASIC design flow tool | ✔️ Installed |
+
+---
