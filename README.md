@@ -40,17 +40,17 @@ This ensures that the design's functionality remains consistent from high-level 
 
 ## Design Flow
 
-1. Chip Modeling (C): Define chip behavior in C, serving as the blueprint.
+1. **Chip Modeling (C)**: Define chip behavior in C, serving as the blueprint.
 
-2. RTL Design (Verilog): Convert C model to RTL description, partitioning into processor and peripherals.
+2. **RTL Design (Verilog)**: Convert C model to RTL description, partitioning into processor and peripherals.
 
-3. ASIC Synthesis: Translate RTL to gate-level netlist, integrating macros and analog IPs.
+3. **ASIC Synthesis**: Translate RTL to gate-level netlist, integrating macros and analog IPs.
 
-4. Physical Design (RTL-to-GDS): Floorplanning, placement, routing, and generation of GDSII file.
+4. **Physical Design (RTL-to-GDS)**: Floorplanning, placement, routing, and generation of GDSII file.
 
-5. Tape-Out: Perform DRC/LVS checks and send final GDSII to foundry.
+5. **Tape-Out**: Perform DRC/LVS checks and send final GDSII to foundry.
 
-6. Tape-In: Fabricate silicon wafers, cut into dies, and package into final chip.
+6. **Tape-In**: Fabricate silicon wafers, cut into dies, and package into final chip.
 
 ---
 
