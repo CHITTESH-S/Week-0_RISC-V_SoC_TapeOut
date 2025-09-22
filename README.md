@@ -78,8 +78,6 @@ System Requirements:
 
 📂 GitHub Repository
 
-- Week-0 Repository: https://github.com/CHITTESH-S/Week-0_RISC-V_SoC_VSD/
-
 - Main Repository: https://github.com/CHITTESH-S/RISC-V_SoC_TapeOut_VSD/
 
 ---
