@@ -76,12 +76,6 @@ System Requirements:
 
 ---
 
-📂 GitHub Repository
-
-- Main Repository: https://github.com/CHITTESH-S/RISC-V_SoC_TapeOut_VSD/
-
----
-
 ✅ Summary of Installed Tools
 
 | Tool           | Description                                 | Status       |
@@ -94,3 +88,9 @@ System Requirements:
 | OpenLane       | Complete RTL-to-GDSII ASIC design flow tool | ✔️ Installed |
 
 ---
+
+👉 **Week-1 Repository Link:** https://github.com/CHITTESH-S/Week-1_RISC-V_SoC_TapeOut
+
+👉 **Main Repository Link:** https://github.com/CHITTESH-S/RISC-V_SoC_TapeOut_VSD
+
+👨‍💻 Contributor: Chittesh S
