@@ -89,8 +89,17 @@ System Requirements:
 
 ---
 
+## 🙌 Acknowledgements
+
+- Kunal Ghosh – VSD SoC Program
+- Open-source tools
+  
+---
+
+👉 **Week-0 Repository Link:** https://github.com/CHITTESH-S/Week-0_RISC-V_SoC_TapeOut
+
 👉 **Week-1 Repository Link:** https://github.com/CHITTESH-S/Week-1_RISC-V_SoC_TapeOut
 
 👉 **Main Repository Link:** https://github.com/CHITTESH-S/RISC-V_SoC_TapeOut_VSD
 
-👨‍💻 Contributor: Chittesh S
+👨‍💻 **Contributor:** Chittesh S
