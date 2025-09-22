@@ -1,4 +1,4 @@
-🌟 RISC-V SoC Tapeout – Week-0: Digital VLSI SoC Design, Planning and Tools Installation
+## 🌟 RISC-V SoC Tapeout – Week-0: Digital VLSI SoC Design, Planning and Tools Installation
 
 ---
 
