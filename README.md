@@ -8,11 +8,11 @@ This week marks the initiation of your journey into Digital VLSI System on Chip 
 
 ## 🎯 Objectives
 
-Conceptual Understanding: Grasp the principles of Digital VLSI SoC design.
+- Conceptual Understanding: Grasp the principles of Digital VLSI SoC design.
 
-Toolchain Setup: Install and configure necessary EDA tools.
+- Toolchain Setup: Install and configure necessary EDA tools.
 
-Version Control: Set up GitHub repositories for project management.
+- Version Control: Set up GitHub repositories for project management.
 
 ---
 
