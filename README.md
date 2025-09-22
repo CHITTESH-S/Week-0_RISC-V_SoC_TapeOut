@@ -62,17 +62,17 @@ System Requirements:
 
 ## Tools to Install: 
 
-**Yosys**: RTL synthesis tool.
+- **Yosys**: RTL synthesis tool.
 
-**Icarus Verilog**: Verilog simulation tool.
+- **Icarus Verilog**: Verilog simulation tool.
 
-**GTKWave**: Waveform viewer.
+- **GTKWave**: Waveform viewer.
 
-**Ngspice**: Circuit-level SPICE simulation engine.
+- **Ngspice**: Circuit-level SPICE simulation engine.
 
-**Magic**: VLSI layout editor and design rule checker.
+- **Magic**: VLSI layout editor and design rule checker.
 
-**OpenLane**: Complete RTL-to-GDSII ASIC design flow tool.
+- **OpenLane**: Complete RTL-to-GDSII ASIC design flow tool.
 
 ---
 
