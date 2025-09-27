@@ -1,4 +1,4 @@
-# 🌟 RISC-V SoC Tapeout – Week-0: Digital VLSI SoC Design, Planning and Tools Installation  
+## 🌟 RISC-V SoC Tapeout – Week-0: Digital VLSI SoC Design, Planning and Tools Installation  
 
 ---
 
@@ -6,9 +6,12 @@
 
 This week marks the **initiation of the journey into Digital VLSI System-on-Chip (SoC) design**.  
 The primary focus is on:  
-- 🏗️ **Setting up essential open-source EDA tools**  
-- 📚 **Understanding the foundational design flow concepts**  
-- 🔗 **Preparing a systematic environment for the tapeout journey**  
+
+🏗️ **Setting up essential open-source EDA tools**
+
+📚 **Understanding the foundational design flow concepts**
+
+🔗 **Preparing a systematic environment for the tapeout journey**  
 
 ---
 
@@ -58,17 +61,23 @@ This ensures that **chip functionality remains consistent** from the high-level 
 ## 🛠️ Toolchain Installation  
 
 **System Requirements**  
-- 💻 **OS**: Ubuntu 20.04+ (✅ I used Ubuntu 22.04)  
-- 🧮 **Minimum Specs**: 6 GB RAM, 50 GB HDD, 4 vCPUs  
+💻 **OS**: Ubuntu 20.04+ (✅ I used Ubuntu 22.04)  
+
+🧮 **Minimum Specs**: 6 GB RAM, 50 GB HDD, 4 vCPUs  
 
 ### 📦 Installed Tools  
 
-- ⚡ **Yosys** → RTL synthesis engine for logic synthesis.  
-- 🧑‍💻 **Icarus Verilog** → Simulator for RTL + testbenches.  
-- 📊 **GTKWave** → Waveform viewer for simulation outputs.  
-- 🔌 **Ngspice** → SPICE-level circuit & mixed-signal simulation.  
-- 🖌️ **Magic** → Layout editor & Design Rule Check (DRC) / LVS.  
-- 🚀 **OpenLane** → Complete RTL-to-GDSII ASIC design automation flow.  
+⚡ **Yosys** → RTL synthesis engine for logic synthesis.  
+
+🧑‍💻 **Icarus Verilog** → Simulator for RTL + testbenches.  
+
+📊 **GTKWave** → Waveform viewer for simulation outputs.  
+
+🔌 **Ngspice** → SPICE-level circuit & mixed-signal simulation.  
+
+🖌️ **Magic** → Layout editor & Design Rule Check (DRC) / LVS.  
+
+🚀 **OpenLane** → Complete RTL-to-GDSII ASIC design automation flow.  
 
 ---
 
@@ -87,19 +96,25 @@ This ensures that **chip functionality remains consistent** from the high-level 
 
 ## 🌐 Achievements in Week-0  
 
-- ⚡ Installed and verified all **open-source EDA tools**.  
-- 🧪 Ran **sample RTL simulations** and verified outputs in GTKWave.  
-- 🔁 Successfully synthesized small RTL designs with Yosys.  
-- 📂 Organized repositories for **Week-0, Week-1, and main tapeout journey**.  
-- 📌 Understood the **importance of version control, environment setup, and path variables**.  
+⚡ Installed and verified all **open-source EDA tools**.  
+
+🧪 Ran **sample RTL simulations** and verified outputs in GTKWave.  
+
+🔁 Successfully synthesized small RTL designs with Yosys.  
+
+📂 Organized repositories for **Week-0, Week-1, and main tapeout journey**.  
+
+📌 Understood the **importance of version control, environment setup, and path variables**.  
 
 ---
 
 ## 🙌 Acknowledgements  
 
-- 👨‍🏫 **Kunal Ghosh** – VSD SoC Program Mentor  
-- 🧑‍🤝‍🧑 **Open-source EDA Community** – Tool contributors & maintainers  
-- 🌍 **RISC-V & Efabless Ecosystem** – Enabling open tapeout programs  
+👨‍🏫 **Kunal Ghosh** – VSD SoC Program Mentor  
+
+🧑‍🤝‍🧑 **Open-source EDA Community** – Tool contributors & maintainers  
+
+🌍 **RISC-V & Efabless Ecosystem** – Enabling open tapeout programs  
 
 ---
 
