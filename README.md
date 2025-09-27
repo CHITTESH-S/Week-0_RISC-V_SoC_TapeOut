@@ -1,105 +1,116 @@
-## 🌟 RISC-V SoC Tapeout – Week-0: Digital VLSI SoC Design, Planning and Tools Installation
+# 🌟 RISC-V SoC Tapeout – Week-0: Digital VLSI SoC Design, Planning and Tools Installation  
 
 ---
 
-## 📘 Overview
+## 📘 Overview  
 
-This week marks the initiation of your journey into Digital VLSI System on Chip (SoC) design. The focus is on setting up the essential tools and understanding the foundational concepts that underpin the design process.
-
-## 🎯 Objectives
-
-- Conceptual Understanding: Grasp the principles of Digital VLSI SoC design.
-
-- Toolchain Setup: Install and configure necessary EDA tools.
-
-- Version Control: Set up GitHub repositories for project management.
+This week marks the **initiation of the journey into Digital VLSI System-on-Chip (SoC) design**.  
+The primary focus is on:  
+- 🏗️ **Setting up essential open-source EDA tools**  
+- 📚 **Understanding the foundational design flow concepts**  
+- 🔗 **Preparing a systematic environment for the tapeout journey**  
 
 ---
 
-## 🧠 Conceptual Framework
+## 🎯 Objectives  
 
-Design Philosophy
-
-The core philosophy of this program is to maintain functional equivalence across all stages of the design process:
-
->O0 = O1 = O2 = O3 = O4
-
-This ensures that the design's functionality remains consistent from high-level specifications to final silicon implementation.
+- 🧩 **Conceptual Understanding**: Grasp the principles of **Digital VLSI SoC design** and its end-to-end flow.  
+- 🛠️ **Toolchain Setup**: Install and configure the **open-source EDA toolchain** required for RTL → GDSII.  
+- 🔒 **Version Control**: Initialize and manage **GitHub repositories** for structured project documentation.  
 
 ---
 
-## 📊 Processor Compilation Stages
+## 🧠 Conceptual Framework  
 
-| Stage  | Description                                | Key Artifact                      |
-| ------ | ------------------------------------------ | --------------------------------- |
-| **O0** | High-level C application code.             | Executable C model specification. |
-| **O1** | Chip behavior defined in C.                | Reference for RTL design.         |
-| **O2** | RTL hardware description in Verilog.       | Synthesizable RTL code.           |
-| **O3** | Integration of processor with peripherals. | Complete SoC design.              |
-| **O4** | RTL2GDS Flow, DRC/LVS Checks, Tape Out, Final fabricated chip.                     | Silicon implementation.           |
+### 🏛️ Design Philosophy  
 
-## Design Flow
+The core philosophy of this program is to maintain **functional equivalence across all design stages**:  
 
-1. **Chip Modeling (C)**: Define chip behavior in C, serving as the blueprint.
+> O0 = O1 = O2 = O3 = O4  
 
-2. **RTL Design (Verilog)**: Convert C model to RTL description, partitioning into processor and peripherals.
-
-3. **ASIC Synthesis**: Translate RTL to gate-level netlist, integrating macros and analog IPs.
-
-4. **Physical Design (RTL-to-GDS)**: Floorplanning, placement, routing, and generation of GDSII file.
-
-5. **Tape-Out**: Perform DRC/LVS checks and send final GDSII to foundry.
-
-6. **Tape-In**: Fabricate silicon wafers, cut into dies, and package into final chip.
+This ensures that **chip functionality remains consistent** from the high-level specification down to **final silicon implementation**.  
 
 ---
 
-## 🛠️ Toolchain Installation
+## 📊 Processor Compilation Stages  
 
-System Requirements:  
-- Ubuntu 20.04+ (✅ I used Ubuntu 22.04)  
-- Minimum Req.: 6 GB RAM, 50 GB HDD, 4 vCPU
-
-## Tools to Install: 
-
-- **Yosys**: RTL synthesis tool.
-
-- **Icarus Verilog**: Verilog simulation tool.
-
-- **GTKWave**: Waveform viewer.
-
-- **Ngspice**: Circuit-level SPICE simulation engine.
-
-- **Magic**: VLSI layout editor and design rule checker.
-
-- **OpenLane**: Complete RTL-to-GDSII ASIC design flow tool.
+| 🔢 Stage | 📖 Description                                | 📂 Key Artifact                      |
+| -------- | --------------------------------------------- | ------------------------------------ |
+| **O0**   | High-level C application code                 | Executable C model specification     |
+| **O1**   | Chip behavior modeled in C                    | Reference model for RTL design       |
+| **O2**   | RTL hardware description in Verilog           | Synthesizable RTL code               |
+| **O3**   | Processor + peripherals integrated            | Complete SoC design                  |
+| **O4**   | RTL2GDS flow → DRC/LVS checks → Tapeout       | Silicon-ready chip                   |
 
 ---
 
-✅ Summary of Installed Tools
+## 🔄 Design Flow  
 
-| Tool           | Description                                 | Status       |
-| -------------- | ------------------------------------------- | ------------ |
-| Yosys          | RTL synthesis tool for digital circuits     | ✔️ Installed |
-| Icarus Verilog | Verilog simulation and testbench execution  | ✔️ Installed |
-| GTKWave        | Waveform viewer for simulation results      | ✔️ Installed |
-| Ngspice        | Circuit-level SPICE simulation engine       | ✔️ Installed |
-| Magic          | VLSI layout editor and design rule checker  | ✔️ Installed |
-| OpenLane       | Complete RTL-to-GDSII ASIC design flow tool | ✔️ Installed |
+1. 🖥️ **Chip Modeling (C)** → Define chip behavior in **C language** as a golden reference.  
+2. 🧾 **RTL Design (Verilog)** → Convert C model to synthesizable **RTL Verilog** and partition into **processor & peripherals**.  
+3. ⚙️ **ASIC Synthesis** → Translate RTL into **gate-level netlist** with Yosys, integrating standard cells, macros, and IPs.  
+4. 📐 **Physical Design (RTL-to-GDS)** → Perform floorplanning, placement, clock-tree synthesis, and routing to generate **GDSII layout**.  
+5. ✅ **Tape-Out** → Run **DRC/LVS checks** to ensure design correctness before sending GDSII to foundry.  
+6. 🏭 **Tape-In** → Silicon wafer fabrication, die cutting, and packaging into **final chips**.  
 
 ---
 
-## 🙌 Acknowledgements
+## 🛠️ Toolchain Installation  
 
-- Kunal Ghosh – VSD SoC Program
-- Open-source tools
-  
+**System Requirements**  
+- 💻 **OS**: Ubuntu 20.04+ (✅ I used Ubuntu 22.04)  
+- 🧮 **Minimum Specs**: 6 GB RAM, 50 GB HDD, 4 vCPUs  
+
+### 📦 Installed Tools  
+
+- ⚡ **Yosys** → RTL synthesis engine for logic synthesis.  
+- 🧑‍💻 **Icarus Verilog** → Simulator for RTL + testbenches.  
+- 📊 **GTKWave** → Waveform viewer for simulation outputs.  
+- 🔌 **Ngspice** → SPICE-level circuit & mixed-signal simulation.  
+- 🖌️ **Magic** → Layout editor & Design Rule Check (DRC) / LVS.  
+- 🚀 **OpenLane** → Complete RTL-to-GDSII ASIC design automation flow.  
+
 ---
 
-👉 **Week-0 Repository Link:** https://github.com/CHITTESH-S/Week-0_RISC-V_SoC_TapeOut
+## ✅ Summary of Installed Tools  
 
-👉 **Week-1 Repository Link:** https://github.com/CHITTESH-S/Week-1_RISC-V_SoC_TapeOut
+| 🛠️ Tool          | 📖 Description                                | 📌 Status       |
+| ---------------- | --------------------------------------------- | --------------- |
+| **Yosys**        | RTL synthesis for digital circuits            | ✔️ Installed    |
+| **Icarus Verilog** | RTL simulation + testbench execution        | ✔️ Installed    |
+| **GTKWave**      | Waveform visualization of test results        | ✔️ Installed    |
+| **Ngspice**      | SPICE-based analog & mixed-signal simulation  | ✔️ Installed    |
+| **Magic**        | VLSI layout editor + DRC/LVS checks           | ✔️ Installed    |
+| **OpenLane**     | RTL-to-GDSII automated flow                   | ✔️ Installed    |
 
-👉 **Main Repository Link:** https://github.com/CHITTESH-S/RISC-V_SoC_TapeOut_VSD
+---
 
-👨‍💻 **Contributor:** Chittesh S
+## 🌐 Achievements in Week-0  
+
+- ⚡ Installed and verified all **open-source EDA tools**.  
+- 🧪 Ran **sample RTL simulations** and verified outputs in GTKWave.  
+- 🔁 Successfully synthesized small RTL designs with Yosys.  
+- 📂 Organized repositories for **Week-0, Week-1, and main tapeout journey**.  
+- 📌 Understood the **importance of version control, environment setup, and path variables**.  
+
+---
+
+## 🙌 Acknowledgements  
+
+- 👨‍🏫 **Kunal Ghosh** – VSD SoC Program Mentor  
+- 🧑‍🤝‍🧑 **Open-source EDA Community** – Tool contributors & maintainers  
+- 🌍 **RISC-V & Efabless Ecosystem** – Enabling open tapeout programs  
+
+---
+
+## 🔗 Repository Links  
+
+👉 **Week-0 Repo**: [Week-0_RISC-V_SoC_TapeOut](https://github.com/CHITTESH-S/Week-0_RISC-V_SoC_TapeOut)  
+👉 **Week-1 Repo**: [Week-1_RISC-V_SoC_TapeOut](https://github.com/CHITTESH-S/Week-1_RISC-V_SoC_TapeOut)  
+👉 **Main Repo**: [RISC-V_SoC_TapeOut_VSD](https://github.com/CHITTESH-S/RISC-V_SoC_TapeOut_VSD)  
+
+---
+
+👨‍💻 **Contributor**: [Chittesh S](https://github.com/CHITTESH-S)  
+
+---
