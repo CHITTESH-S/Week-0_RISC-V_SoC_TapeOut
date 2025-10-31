@@ -118,13 +118,23 @@ This ensures that **chip functionality remains consistent** from the high-level 
 
 ---
 
-## 🔗 Repository Links  
+## 🔗 References & Resources
 
-👉 **Week-0 Repo**: [Week-0_RISC-V_SoC_TapeOut](https://github.com/CHITTESH-S/Week-0_RISC-V_SoC_TapeOut)  
-👉 **Week-1 Repo**: [Week-1_RISC-V_SoC_TapeOut](https://github.com/CHITTESH-S/Week-1_RISC-V_SoC_TapeOut)  
-👉 **Main Repo**: [RISC-V_SoC_TapeOut_VSD](https://github.com/CHITTESH-S/RISC-V_SoC_TapeOut_VSD)  
+💡 I sincerely thank all the organizations and their key members for making this program possible:
+
+- 🧑‍🏫 **VLSI System Design (VSD)** – [Kunal Ghosh](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/) for mentorship and vision.
+- 🤝 **Efabless** – [Michael Wishart](https://www.linkedin.com/in/mike-wishart-81480612/) & [Mohamed Kassem](https://www.linkedin.com/in/mkkassem/) for enabling collaborative open-source chip design.
+- 🏭 [**Semiconductor Laboratory (SCL)**](https://www.scl.gov.in/) – for PDK & foundry support.
+- 🎓 [**IIT Gandhinagar (IITGN)**](https://www.linkedin.com/school/indian-institute-of-technology-gandhinagar-iitgn-/?originalSubdomain=in) – for on-site training & project facilitation.
+- 🛠️ **Synopsys** – [Sassine Ghazi](https://www.linkedin.com/in/sassine-ghazi/) for providing industry-grade EDA tools under C2S program.
 
 ---
+
+## 🔗 Repository Links  
+
+👉 **Week-1 Repository Link:** https://github.com/CHITTESH-S/Week-1_RISC-V_SoC_TapeOut
+
+👉 **Main Repository Link:** https://github.com/CHITTESH-S/RISC-V_SoC_TapeOut_VSD
 
 👨‍💻 **Contributor**: [Chittesh S](https://github.com/CHITTESH-S)  
 
